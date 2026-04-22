@@ -26,4 +26,5 @@ This internship focused on building strong fundamentals in frontend & backend we
 - Hands-on project experience
 
 ## 📬 Contact
-Mayur Shashidhar
+shailesh
+
