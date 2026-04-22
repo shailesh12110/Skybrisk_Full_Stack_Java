@@ -1,0 +1,31 @@
+{
+  "name": "bookstore-management-system",
+  "version": "1.0.0",
+  "description": "Bookstore Management System with REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon backend/server.js",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install",
+    "seed": "node seed.js"
+  },
+  "keywords": ["bookstore", "rest-api", "nodejs", "express", "react"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
